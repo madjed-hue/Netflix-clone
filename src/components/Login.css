@@ -1,0 +1,145 @@
+.login {
+  position: relative;
+  height: 100%;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/9b3267c9-5086-4550-92f1-eddc22a1f78e/b89579d1-092a-4809-82ca-9447793ad777/DZ-en-20211004-popsignuptwoweeks-perspective_alpha_website_small.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+.login__logo {
+  position: fixed;
+  left: 0;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+}
+.login__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.login__gradient {
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 80%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.login__body {
+  position: absolute;
+  width: 100%;
+  padding: 75px 0;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.login__body h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.login__body h2 {
+  font-size: 1.625rem;
+  margin: 1rem auto;
+  margin-bottom: 20px;
+  font-weight: 400;
+  max-width: 640px;
+}
+.login__body h3 {
+  max-width: none;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+.login__input {
+  margin: 20px;
+}
+.login__input > form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__input > form > input {
+  padding: 10px;
+  outline-width: 0;
+  width: 30%;
+  height: 60px;
+  border: none;
+  max-width: 600px;
+  min-width: 350px;
+}
+.login__getStarted {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.3rem;
+  min-height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 550px) {
+  .login__input {
+    font-size: 1.25rem;
+  }
+  .login__input > form {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .login__input > form > input {
+    height: 50px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .login__body h1 {
+    font-size: 2.125rem;
+  }
+  .login__body h2 {
+    font-size: 1.5rem;
+  }
+  .login__body h3 {
+    font-size: 1.1rem;
+  }
+  .login__input > form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .login__getStarted {
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    min-height: 40px;
+    margin-top: 10px;
+  }
+  .login__input > form > input {
+    height: 60px;
+    padding: 10px 10px 0;
+    width: 100%;
+  }
+}

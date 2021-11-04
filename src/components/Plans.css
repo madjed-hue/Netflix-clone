@@ -1,0 +1,30 @@
+.plans {
+  margin-top: 15px;
+}
+.plans form:hover {
+  background-color: rgb(41, 39, 39);
+}
+.plans form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+  padding: 5px 10px;
+  transition: all 0.3s;
+}
+.plans form h4 {
+  font-weight: 400;
+  color: #ddd;
+}
+.plans form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.plans form button:hover {
+  transform: scale(1.1);
+}

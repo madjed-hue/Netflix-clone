@@ -1,0 +1,101 @@
+.signup {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.75);
+  min-height: 660px;
+  padding: 60px 68px 40px;
+  margin-bottom: 90px;
+  text-align: left;
+}
+.signup h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+.signup form {
+  display: grid;
+  flex-direction: column;
+}
+.signup form input {
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px 0;
+  background: #333;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+.signup form button {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  background: #e50914;
+  color: #fff;
+  margin: 24px 0 12px;
+  padding: 15px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup .remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  line-height: 1.2;
+  flex-grow: 0;
+  margin-bottom: 3.5rem;
+  z-index: 200000;
+}
+.signup .remember input {
+  background-color: #737373;
+  color: #333;
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 15px;
+  height: 15px;
+}
+.signup .facebook__login {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.signup .facebook__login span:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.signup .facebook__login .icon {
+  margin-right: 5px;
+}
+.signup .facebook__login span {
+  color: #737373;
+  font-size: 13px;
+  font-weight: 500;
+}
+.signup .new__netflix {
+  margin-bottom: 10px;
+}
+.signup .new__netflix .signe-up:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.signup .new__netflix span:first-child {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+.signup .page_info {
+  color: #737373;
+  font-size: 13px;
+  font-weight: 500;
+}
